@@ -1,0 +1,73 @@
+/* projectList.css */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 100%;
+}
+.project-image {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.project-description {
+  height: 150px;
+  color: #fff;
+  text-align: center;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  text-decoration: none;
+}
+
+.github-button {
+  background: #fff;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.github-button img {
+  width: 25%;
+  margin-right: 8px;
+}
+
+.github-button:hover {
+  background-color: #e9ff25;
+}
+
+@media screen and (max-width: 720px) {
+  .project-card {
+    width: calc(100% - 20px);
+
+    font-size: 20px;
+  }
+  .project-description {
+    width: 70%;
+  }
+}

@@ -1,0 +1,60 @@
+/* EducateItem.css */
+
+.educate-item {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.educate-item h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.educate-item p {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 51rem;
+  padding: 0 2rem;
+}
+
+.educate-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.educate-item li {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+}
+.educationBars {
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+.educationBar {
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+@media screen and (max-width: 720px) {
+  .educate-item p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .educate-item p {
+    font-size: 3vw;
+  }
+}
