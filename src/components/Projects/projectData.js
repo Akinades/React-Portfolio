@@ -32,6 +32,14 @@ const projectData = [
       "React-Challenges Use to record activities Create and have a function to choose between success and failure. Developed using React & framer-motion",
     url: "https://github.com/Akinades/React-Challenges",
   },
+  {
+    id: 5,
+    image: require("../../assets/projects/React-Food-App.png"),
+    title: "React-Food-App",
+    description:
+      "React-Food-App Use to order food and fill in delivery address information. Developed using React ",
+    url: "https://github.com/Akinades/React-Food-App",
+  },
 ];
 
 export { projectData };
