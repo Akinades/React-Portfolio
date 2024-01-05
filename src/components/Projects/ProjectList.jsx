@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import "./projectList.css";
+import "./ProjectList.css";
 import { skill_Icon } from "../About/Skills/skill-icon";
 const Projectlist = ({ title, description, image, url }) => {
   return (
