@@ -3,7 +3,7 @@ import "./Contact.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-const Email = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -72,4 +72,4 @@ const Email = () => {
   );
 };
 
-export default Email;
+export default Contact;

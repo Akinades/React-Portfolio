@@ -4,7 +4,7 @@ import Homepage from "./router/Homepage";
 
 import Aboutpage from "./router/Aboutpage";
 import Projectspage from "./router/Projectspage";
-import Email from "./components/Contact/Email";
+import Contactpage from "./router/Contactpage";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,7 +18,7 @@ function App() {
         },
         { path: "/about", element: <Aboutpage /> },
         { path: "/projects", element: <Projectspage /> },
-        { path: "/contact", element: <Email /> },
+        { path: "/contact", element: <Contactpage /> },
       ],
     },
   ]);
