@@ -3,7 +3,7 @@ import logo from "../../assets//logo_nav.png";
 
 import MyLink from "./mylink";
 const Navbar = () => {
-  const linkCV =
+  const CV =
     "https://www.canva.com/design/DAFNzzky5WI/XVWwGwkbbCZoMk0B7Dro_Q/view?utm_content=DAFNzzky5WI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
   return (
     <nav className="navbar">
@@ -13,7 +13,7 @@ const Navbar = () => {
         <MyLink to="/about">About</MyLink>
         <MyLink to="/projects">Projects</MyLink>
         <MyLink to="/contact">Contact</MyLink>
-        <MyLink to={linkCV}>CV</MyLink>
+        <MyLink to={CV}>CV</MyLink>
       </div>
     </nav>
   );
