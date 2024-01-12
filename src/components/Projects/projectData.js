@@ -40,6 +40,14 @@ const projectData = [
       "React-Food-App Use to order food and fill in delivery address information. Developed using React ",
     url: "https://github.com/Akinades/React-Food-App",
   },
+  {
+    id: 6,
+    image: require("../../assets/projects/Auth-Event.png"),
+    title: "React-Auth-Event",
+    description:
+      "React-Food-App Use to order food and fill in delivery address information. Developed using React ",
+    url: "https://github.com/Akinades/React-Food-App",
+  },
 ];
 
 export { projectData };
