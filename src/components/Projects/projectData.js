@@ -45,8 +45,8 @@ const projectData = [
     image: require("../../assets/projects/Auth-Event.png"),
     title: "React-Auth-Event",
     description:
-      "React-Food-App Use to order food and fill in delivery address information. Developed using React ",
-    url: "https://github.com/Akinades/React-Food-App",
+      "React-Auth-Event used to record appointments, view events, edit, delete . Developed using React-Rotuer",
+    url: "https://github.com/Akinades/React-Auth-Event",
   },
 ];
 
