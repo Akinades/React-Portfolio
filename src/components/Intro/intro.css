@@ -80,6 +80,15 @@
 
 @media screen and (max-width: 480px) {
   .bg {
-    right: -20vw;
+    right: -10vw;
+    top: 10%;
+  }
+  .introContent {
+    margin-top: 50px;
+  }
+  #intro {
+    width: 500px;
+    height: 100%;
+    margin-left: 30px;
   }
 }
