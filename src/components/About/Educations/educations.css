@@ -17,3 +17,9 @@
   padding-top: 1rem;
   margin-bottom: 1.5rem;
 }
+
+@media screen and (max-width: 420px) {
+  #educations {
+    margin-left: 10px;
+  }
+}

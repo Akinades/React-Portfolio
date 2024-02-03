@@ -48,6 +48,14 @@ const projectData = [
       "React-Auth-Event used to record appointments, view events, edit, delete . Developed using React-Rotuer",
     url: "https://github.com/Akinades/React-Auth-Event",
   },
+  {
+    id: 7,
+    image: require("../../assets/projects/React-Movie-API.png"),
+    title: "React-Movie-API",
+    description:
+      "React-Auth-Event used to fetch moive, view movie, add, delete , rates . Developed using React",
+    url: "https://github.com/Akinades/Movie-API",
+  },
 ];
 
 export { projectData };
