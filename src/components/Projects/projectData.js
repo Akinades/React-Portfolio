@@ -56,6 +56,13 @@ const projectData = [
       "React-Auth-Event used to fetch moive, view movie, add, delete , rates . Developed using React",
     url: "https://github.com/Akinades/Movie-API",
   },
+  {
+    id: 8,
+    image: require("../../assets/projects/React-quiz.png"),
+    title: "React-quiz",
+    description: "Questions for React Basics .Create by React-useReducer",
+    url: "https://github.com/Akinades/React-Quiz",
+  },
 ];
 
 export { projectData };
